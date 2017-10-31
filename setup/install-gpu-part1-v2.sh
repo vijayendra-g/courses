@@ -57,6 +57,8 @@ cd pytorch && python setup.py install && cd ..
 git clone --recursive https://github.com/pytorch/vision.git
 cd vision && python setup.py install && cd ..
 
+pip install torchtext
+
 # configure jupyter
 jupyter notebook --generate-config
 
