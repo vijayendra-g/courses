@@ -32,7 +32,7 @@ wget "http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu
 sudo dpkg -i libcudnn7_7.0.3.11-1+cuda9.0_amd64.deb
 
 # install tensorflow
-conda install tensorflow
+conda install tensorflow-gpu
 
 # install and configure keras
 pip install git+git://github.com/fchollet/keras.git
